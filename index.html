@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Registration System</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Car Registration System</h1>
+  </header>
+  <main>
+    <p>My simple car registration system by Mohamad Ahmad.</p>
+    <h1>Car Registration List</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Make</th>
+          <th>Model</th>
+          <th>Owner</th>
+        </tr>
+      </thead>
+      <tbody id="comments-table-body">
+        <!-- Car registration details will be dynamically added here -->
+      </tbody>
+    </table>
+    <h2>Add a Car</h2>
+    <form id="comment-form">
+      <label for="year">Year:</label>
+      <input type="text" id="year-input" name="year" required>
+      <label for="make">Make:</label>
+      <input type="text" id="make-input" name="make" required>
+      <label for="model">Model:</label>
+      <input type="text" id="model-input" name="model" required>
+      <label for="owner">Owner:</label>
+      <input type="text" id="owner-input" name="owner" required>
+      <button type="submit">Add Car</button>
+    </form>
+    <div id="comments-container"></div>
+  </main>
+  <footer>
+    <p>Created by Mohamad Ahmad</p>
+  </footer>
+</body>
+</html>
